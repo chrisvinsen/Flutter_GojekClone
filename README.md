@@ -1,4 +1,4 @@
-# gojek_clone
+# Gojek Clone UI/UX with Flutter
 
 A new Flutter application.
 
