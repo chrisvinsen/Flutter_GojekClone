@@ -9,7 +9,7 @@ class Chat {
     required this.datetime,
   });
 
-  String get date_string {
+  String get dateString {
     return DateFormat('dd/MM/yy').format(datetime);
   }
 }

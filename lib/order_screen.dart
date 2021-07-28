@@ -4,7 +4,6 @@ import 'package:flutter_custom_tab_bar/delegate/color_transform_delegte.dart';
 import 'package:flutter_custom_tab_bar/indicator/linear_indicator.dart';
 import 'package:flutter_custom_tab_bar/tab_bar_item.dart';
 import 'package:flutter_custom_tab_bar/tab_bar_item_info.dart';
-import 'package:gojek_clone/login_screen.dart';
 import 'package:gojek_clone/shared/style.dart';
 
 import 'model/order.dart';
@@ -122,7 +121,7 @@ class ListOrderScreen extends StatelessWidget {
                                 ),
                                 Padding(
                                   padding: const EdgeInsets.only(top: 8.0),
-                                  child: Text(order.datetime_string, style: textParagraf5),
+                                  child: Text(order.datetimeString, style: textParagraf5),
                                 ),
                               ],
                             )

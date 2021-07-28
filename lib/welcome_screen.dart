@@ -25,7 +25,7 @@ class WelcomeScreen extends StatelessWidget {
           child: Column(
             children: <Widget>[
               Expanded(
-                flex: 3,
+                flex: 2,
                 child: CarouselSlider(
                   options: CarouselOptions(
                     height: double.infinity,
@@ -42,14 +42,17 @@ class WelcomeScreen extends StatelessWidget {
                             children: <Widget>[
                               Image.asset(
                                 i.imageAsset,
-                                height: 200,
+                                height: 150,
                               ),
                               SizedBox(
-                                height: 25
+                                height: 15
                               ),
-                              Text(
-                                i.title,
-                                style: textHeading1,
+                              Align(
+                                alignment: Alignment.centerLeft,
+                                child: Text(
+                                  i.title,
+                                  style: textHeading2,
+                                ),
                               ),
                               SizedBox(
                                 height: 10
@@ -104,10 +107,11 @@ class WelcomeScreen extends StatelessWidget {
                       ),
                     ),
                     SizedBox(
-                      height: 20,
+                      height: 5,
                     ),
                     Text(
-                        'Dengan masuk atau mendaftar, kamu menyetujui Ketentuan Layanan dan Kebijakan Privasi.'
+                      'Dengan masuk atau mendaftar, kamu menyetujui Ketentuan Layanan dan Kebijakan Privasi.',
+                      style: textParagraf5,
                     )
                   ],
                 ),

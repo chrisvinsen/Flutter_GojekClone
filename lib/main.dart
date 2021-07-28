@@ -5,6 +5,9 @@ import 'package:flutter/services.dart';
 import 'package:gojek_clone/welcome_screen.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setPreferredOrientations(
+      [DeviceOrientation.portraitUp]);
   runApp(
     MaterialApp(
       home: MyApp(),

@@ -39,7 +39,9 @@ class ChatScreen extends StatelessWidget {
                                   padding: EdgeInsets.only(top: 6),
                                   child: Text(
                                     'Inbox',
-                                    style: textParagraf5
+                                    style: textParagraf5,
+                                    maxLines: 1,
+                                    overflow: TextOverflow.ellipsis,
                                   ),
                                 ),
                               ]
@@ -60,7 +62,10 @@ class ChatScreen extends StatelessWidget {
                                     padding: EdgeInsets.only(top: 6),
                                     child: Text(
                                         'Help tickets',
-                                        style: textParagraf5
+                                        style: textParagraf5,
+                                        textAlign: TextAlign.center,
+                                        maxLines: 1,
+                                        overflow: TextOverflow.ellipsis,
                                     ),
                                   ),
                                 ]
@@ -81,7 +86,9 @@ class ChatScreen extends StatelessWidget {
                                     padding: EdgeInsets.only(top: 6),
                                     child: Text(
                                         'New group',
-                                        style: textParagraf5
+                                        style: textParagraf5,
+                                        maxLines: 1,
+                                        overflow: TextOverflow.ellipsis,
                                     ),
                                   ),
                                 ]
@@ -102,7 +109,9 @@ class ChatScreen extends StatelessWidget {
                                     padding: EdgeInsets.only(top: 6),
                                     child: Text(
                                         'Split bill',
-                                        style: textParagraf5
+                                        style: textParagraf5,
+                                        maxLines: 1,
+                                        overflow: TextOverflow.ellipsis,
                                     ),
                                   ),
                                 ]
@@ -123,7 +132,9 @@ class ChatScreen extends StatelessWidget {
                                     padding: EdgeInsets.only(top: 6),
                                     child: Text(
                                         'Pay',
-                                        style: textParagraf5
+                                        style: textParagraf5,
+                                        maxLines: 1,
+                                        overflow: TextOverflow.ellipsis,
                                     ),
                                   ),
                                 ]
@@ -182,7 +193,7 @@ class ChatScreen extends StatelessWidget {
                                               )
                                             ],
                                           ),
-                                          Text(chat.date_string, style: textParagraf5)
+                                          Text(chat.dateString, style: textParagraf5)
                                         ],
                                       ),
                                     ),

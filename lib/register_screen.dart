@@ -17,7 +17,7 @@ class RegisterScreen extends StatelessWidget {
           backgroundColor: Colors.white,
         ),
         body: Container(
-          padding: const EdgeInsets.only(top: 32.0, bottom: 20.0, left: 20.0, right: 20.0),
+          padding: const EdgeInsets.fromLTRB(20, 0, 20, 10),
           color: Colors.white,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,

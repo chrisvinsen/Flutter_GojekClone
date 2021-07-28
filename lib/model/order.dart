@@ -11,7 +11,7 @@ class Order {
     required this.datetime,
   });
 
-  String get datetime_string {
+  String get datetimeString {
     return DateFormat('yyyy-MM-dd – kk:mm').format(datetime);
   }
 }
